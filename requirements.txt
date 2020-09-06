@@ -1,6 +1,6 @@
 instaloader
 pandas
 gspread
-pickle
+pickle-mixin
 spacy
 nltk
