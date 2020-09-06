@@ -4,3 +4,4 @@ gspread
 pickle-mixin
 spacy
 nltk
+sklearn
