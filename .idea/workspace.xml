@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea30fb15-fd39-4d72-8365-af9f1f8e55e4" name="Default Changelist" comment="sentiment insta" />
+    <list default="true" id="ea30fb15-fd39-4d72-8365-af9f1f8e55e4" name="Default Changelist" comment="sentiment insta">
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599378504556</updated>
       <workItem from="1599378507367" duration="560000" />
+      <workItem from="1599379614657" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="sda">
       <created>1599378535583</created>
@@ -94,6 +97,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sda" />

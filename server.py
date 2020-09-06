@@ -2,7 +2,7 @@
 import datetime
 import pickle
 import re
-
+import nltk
 import pandas as pd
 from instaloader import Instaloader, Profile
 from nltk import word_tokenize
