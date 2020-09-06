@@ -144,10 +144,12 @@ insta = pd.DataFrame(rows,
                      columns=['handle', 'total_likes', 'pos_comments', 'neg_comments', 'total_comments', 'total_posts',
                               'num_followers'])
 comments_df = pd.DataFrame(comments, columns=['handle', 'comment'])
-insta.to_csv(''.join(handles) + '_insta.csv', index=False)
-comments_df.to_csv(''.join(handles) + '_insta_comments.csv', index=False)
+# insta.to_csv(''.join(handles) + '_insta.csv', index=False)
+# comments_df.to_csv(''.join(handles) + '_insta_comments.csv', index=False)
 # TODO: WILL SAVE TO CSV
-
 worksheet = sh.get_worksheet(0)
 
 worksheet.update([comments_df.columns.values.tolist()] + comments_df.values.tolist())
+worksheet = sh.get_worksheet(1)
+
+worksheet.update([insta.columns.values.tolist()] + insta.values.tolist())
