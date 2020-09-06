@@ -138,6 +138,7 @@ for handle in handles:
                 elif senti == 0:  # negative
                     neg_comments += 1
         total_posts += 1
+        break
     # print(handle, total_likes, pos_comments, neg_comments, total_comments, total_posts, num_followers)
     rows.append([handle, total_likes, pos_comments, neg_comments, total_comments, total_posts, num_followers])
 insta = pd.DataFrame(rows,
