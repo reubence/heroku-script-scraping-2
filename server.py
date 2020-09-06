@@ -98,9 +98,6 @@ end_date = datetime.date(year=2020, month=8, day=31)
 df = pd.read_csv('data/Page Rank Handles.csv', encoding='cp1252')
 handles = df['Insta Handle'].dropna().tolist()
 print("yo")
-# handles = ['_aamirkhan', 'amitabhbachchan', 'deepikapadukone', 'faroutakhtar', 'hrithikroshan', 'therealkareenakapoor', 'priyankachopra', 'ranbirkapoor', 'ranveersingh', 'iamsrk']
-# ['iamsrk', 'shahidkapoor', 'shraddhakapoor', 'shreyastalpade27', 'shrutzhaasan', 'sidmalhotra', 'aslisona', 'sonamkapoor', 'sonu_sood', 'sunnyleone', 'sushantsinghrajput']
-# handles = ['hrithikroshan']
 rows = []
 comments = []
 for handle in handles:
@@ -124,7 +121,7 @@ for handle in handles:
         getcomments = list(post.get_comments())
         all_comments = 0
         good_comments = 1
-        while good_comments <= 5 and all_comments < len(getcomments):
+        while good_comments <= 1000 and all_comments < len(getcomments):
             comment = getcomments[all_comments]
             clean_comment = cleaning(comment.text)
             all_comments += 1
