@@ -8,7 +8,7 @@ from instaloader import Instaloader, Profile
 from nltk import word_tokenize
 from spacy.lang.en import English
 import gspread
-
+nltk.download('punkt')
 gc = gspread.service_account(filename='data/sheets-json-secret-key.json')
 sh = gc.open_by_url(
     'https://docs.google.com/spreadsheets/d/15dA7G6TQozLCQHC6_42aJFz7gmid06Ktm4cRKUn90xs/edit?usp=sharing')
