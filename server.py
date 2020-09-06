@@ -96,11 +96,11 @@ start_date = datetime.date(year=2020, month=8, day=1)
 end_date = datetime.date(year=2020, month=8, day=31)
 # TODO: CHANGE HANDLE TO THE ONE ASSIGNED TO YOU
 df = pd.read_csv('data/Page Rank Handles.csv', encoding='cp1252')
-# handles = df['Insta Handle'].dropna().tolist()
+handles = df['Insta Handle'].dropna().tolist()
 print("yo")
 # handles = ['_aamirkhan', 'amitabhbachchan', 'deepikapadukone', 'faroutakhtar', 'hrithikroshan', 'therealkareenakapoor', 'priyankachopra', 'ranbirkapoor', 'ranveersingh', 'iamsrk']
 # ['iamsrk', 'shahidkapoor', 'shraddhakapoor', 'shreyastalpade27', 'shrutzhaasan', 'sidmalhotra', 'aslisona', 'sonamkapoor', 'sonu_sood', 'sunnyleone', 'sushantsinghrajput']
-handles = ['hrithikroshan']
+# handles = ['hrithikroshan']
 rows = []
 comments = []
 for handle in handles:
