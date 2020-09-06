@@ -1,3 +1,7 @@
 instaloader
 pandas
 gspread
+pickle-mixin
+spacy
+nltk
+scikit-learn == 0.23.0
