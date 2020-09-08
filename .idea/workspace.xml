@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea30fb15-fd39-4d72-8365-af9f1f8e55e4" name="Default Changelist" comment="sentiment insta">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-    </list>
+    <list default="true" id="ea30fb15-fd39-4d72-8365-af9f1f8e55e4" name="Default Changelist" comment="sentiment insta" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +89,7 @@
       <workItem from="1599378507367" duration="560000" />
       <workItem from="1599379614657" duration="3350000" />
       <workItem from="1599407825821" duration="3263000" />
+      <workItem from="1599573537258" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="sda">
       <created>1599378535583</created>
