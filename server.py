@@ -77,18 +77,18 @@ def cleaning(text):
 cleaning('Yay the cleaning PiPeline works!! :D #yebish')
 
 ####
-# url = "https://www.dropbox.com/s/manoypretrz3sq8/pipeline.sav?dl=1"  # dl=1 is important
-# import urllib.request
-#
-# u = urllib.request.urlopen(url)
-# data = u.read()
-# u.close()
-#
-# with open('data/model.sav', "wb") as f:
-#     f.write(data)
-# ####
+url = "https://www.dropbox.com/s/manoypretrz3sq8/pipeline.sav?dl=1"  # dl=1 is important
+import urllib.request
 
-pipeline = pickle.load(open('C:/Users/reube/Downloads/pipeline.sav', 'rb'))
+u = urllib.request.urlopen(url)
+data = u.read()
+u.close()
+
+with open('data/model.sav', "wb") as f:
+    f.write(data)
+####
+
+pipeline = pickle.load(open('data/model.sav', 'rb'))
 pipeline.predict(['good'])
 L = Instaloader()
 
