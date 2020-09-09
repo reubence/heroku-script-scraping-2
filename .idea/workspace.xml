@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea30fb15-fd39-4d72-8365-af9f1f8e55e4" name="Default Changelist" comment="sentiment insta" />
+    <list default="true" id="ea30fb15-fd39-4d72-8365-af9f1f8e55e4" name="Default Changelist" comment="sentiment insta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Page Rank Handles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Page Rank Handles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../heroku-script-scraping-4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -90,6 +94,7 @@
       <workItem from="1599379614657" duration="3350000" />
       <workItem from="1599407825821" duration="3263000" />
       <workItem from="1599573537258" duration="13000" />
+      <workItem from="1599669926150" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="sda">
       <created>1599378535583</created>
@@ -227,26 +232,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="sentiment insta" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1599408417628">
+    <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1599669943165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="214" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599408417628" />
-    <state width="1865" height="206" key="GridCell.Tab.0.bottom" timestamp="1599411449962">
+    <state x="687" y="214" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599669943165" />
+    <state width="1865" height="206" key="GridCell.Tab.0.bottom" timestamp="1599672421015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599411449962" />
-    <state width="1865" height="206" key="GridCell.Tab.0.center" timestamp="1599411449962">
+    <state width="1865" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599672421015" />
+    <state width="1865" height="206" key="GridCell.Tab.0.center" timestamp="1599672421015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599411449962" />
-    <state width="1865" height="206" key="GridCell.Tab.0.left" timestamp="1599411449962">
+    <state width="1865" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599672421015" />
+    <state width="1865" height="206" key="GridCell.Tab.0.left" timestamp="1599672421015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599411449962" />
-    <state width="1865" height="206" key="GridCell.Tab.0.right" timestamp="1599411449962">
+    <state width="1865" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599672421015" />
+    <state width="1865" height="206" key="GridCell.Tab.0.right" timestamp="1599672421015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599411449962" />
+    <state width="1865" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599672421015" />
     <state x="336" y="77" key="SettingsEditor" timestamp="1599409125780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,6 +262,6 @@
     <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599382568417" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/heroku_script_scraping_2$server.coverage" NAME="server Coverage Results" MODIFIED="1599410316475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heroku_script_scraping_2$server.coverage" NAME="server Coverage Results" MODIFIED="1599670215352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
